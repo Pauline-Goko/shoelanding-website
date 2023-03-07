@@ -1,0 +1,256 @@
+.div1 ul li{
+    list-style-type: none;
+    justify-content: right;
+    display: inline-block;
+    padding: 10px;
+    
+
+}
+
+.main{
+    border-style: hidden;
+    width: 500px;
+    height:600px;
+    
+}
+
+.fix{
+    margin-left: 10%;
+    font-size: larger;
+    font-weight: bolder;
+}
+.div2 ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 45px;
+    
+    
+}
+
+.div2{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    border-style: hidden;
+    border-radius: 40px;
+    height:500px ;
+    width: 500px ;
+    text-align: right;
+    background-color: rgb(224, 80, 80);
+    
+}
+
+.body{
+    height: 2000px;
+    background-color: ;
+}
+
+.puma{
+border-style: solid;
+width: 300px;
+height: 140px;
+position: absolute;
+top: 100%;
+text-align: right;
+
+}
+
+.nike{
+    border-style: solid;
+    width: 300px;
+    position: absolute;
+    right: 550px ;
+    top: 100%;
+    text-align: right;
+    height: 140px;
+
+}
+
+.adidas{
+    border-style: solid;
+width: 300px;
+height: 140px;
+position: absolute;
+right: 100px;
+top: 100%;
+text-align: right;
+
+}
+#best{
+    text-align: center;
+    position: absolute;
+    right: 550px;
+    top: 80%;
+    width: 250px;
+}
+.shoe{
+    width: 40%;
+    background-color: rgb(243, 235, 235);
+    position: relative;
+     left: 400px;
+     bottom: 570px;
+     
+     
+    
+}
+.list1 li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    
+}
+#pumashoe1{
+    width: 100px;
+    margin-right: 85%;
+    position: absolute;
+    top: 19px;
+    left: 30px;
+    transform: rotate(-45deg);
+    
+
+}
+#nikeshoe1{
+    width: 120px;
+    margin-right: 85% ;
+    position: absolute;
+    top: 39px;
+    left:30px ;
+    transform: rotate(-45deg);
+}
+#adidasshoe1{
+    width: 100px;
+    margin-right: 85%;
+    position: absolute;
+    top: 33px;
+    left: 30px;
+    transform: rotate(-40deg);
+}
+#feat{
+    text-align: center;
+}
+#adid{
+    width: 100px;
+position: absolute;
+margin-top: 3%;
+margin-left: 2%;
+transform: rotate(-50deg);
+
+}
+.smalldiv1{
+    border-style: solid;
+    width: 170px;
+    height: 180px;
+    margin-left: 7%;
+    
+}
+
+.smalldiv2{
+    border-style: solid;
+    width: 170px;
+    height: 150px;
+    margin-left: 7%;
+
+}
+#nike3{
+    width: 100px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 2%;
+    transform: rotate(-50deg);
+}
+.bigdiv1{
+    padding: 10px;
+    display: flex;
+justify-content: center;
+
+    
+}
+.smalldiv3{
+    border-style: solid;
+    width: 170px;
+    height: 150px;
+    margin-left: 7%;
+    
+}
+#puma2{
+    width: 100px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 2%;
+    transform: rotate(20deg);
+}
+.smalldiv4{
+    border-style: solid;
+    width: 170px;
+    height: 150px;
+    margin-left: 7%;
+
+}
+#fila1{
+    width: 100px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 2%;
+    transform: rotate(21deg);
+}
+.smalldiv5{
+    border-style: solid;
+    width: 170px;
+    height: 150px;
+    margin-left: 7%;
+
+}
+#puma3{
+    width: 100px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 2%;
+    transform: rotate(-19deg);
+}
+.smalldiv6{
+    border-style: solid;
+    width: 170px;
+    height: 150px;
+    margin-left: 7%;
+
+}
+#nike4{
+    width: 100px;
+    position: absolute;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    transform: rotate(-20deg);
+
+}
+.smalldiv7{
+    border-style: solid;
+    width: 170px;
+    height: 150px;
+    margin-left: 7%;
+}
+#adidas5{
+    width: 100px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 2%;
+
+}
+.smalldiv8{
+    border-style: solid;
+    width: 170px;
+    height: 150px;
+    margin-left: 7%;   
+}
+#adidas8{
+    width: 100px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.bigdiv2{
+    padding: 10px;
+    display: flex;
+justify-content: center;
+
+}
