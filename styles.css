@@ -8,15 +8,16 @@
 }
 .body{
     background-color: rgb(238, 234, 234);
-  
+    
+ 
 }
 
 .main{
     border-style: hidden;
-    width: 100%;
     height:600px;
     background-image: url(images/div.png);
     background-size: cover;
+  
     
 }
 
@@ -31,8 +32,9 @@
     color: rgb(241, 14, 14);
 }
 #button5{
-    height: 30px;
-    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
     background-image: linear-gradient(to right,rgb(219, 36, 36), rgb(245, 201, 6));
     color: azure;
     font-weight: bold ;
@@ -58,7 +60,7 @@ background-color: white;
 width: 300px;
 height: 140px;
 position: absolute;
-top: 100%;
+top: 120%;
 text-align: right;
 margin-left: 12%;
 text-align: right;
@@ -71,7 +73,7 @@ text-align: right;
      position: absolute;
     right: 550px ;
     left: 520px;
-    top: 100%;
+    top: 120%;
     
     height: 140px; 
     text-align: right;
@@ -85,14 +87,15 @@ width: 300px;
 height: 140px;
 position: absolute;
 right: 100px;
-top: 100%;
+top: 120%;
 text-align: right;
 
 }
 #best{
+    margin-top: 6%;
     text-align: center;
-    margin-top: 3%;
-   
+    font-size: 1.4em;
+  
 }
 
 .list1{
@@ -109,30 +112,65 @@ text-align: right;
 }
 #pumashoe1{
     width: 130px;
-    margin-right: 85%;
+    
     position: absolute;
     top: 5px;
-    left: 30px;
-    transform: rotate(-47deg);  
+    left: 5px;
+    transform: rotate(-45deg);  
+}
 
+.puma p{
+    margin-right: 8%;
+    margin-bottom: 2%;
+}
+
+#pumabold1{
+    margin-right: 35%;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+#shoe1{
+    margin-right: 10%;
 }
 #nikeshoe1{
-    width: 120px;
+    width: 95px;
     margin-right: 85% ;
     position: absolute;
     top: 39px;
-    left:30px ;
-    transform: rotate(-45deg);
+    left:10px ;
+    transform: rotate(-42deg);
+}
+#nikebold{
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-right: 40%;
+}
+
+.nike p{
+    margin-right: 8%;
+    margin-bottom: 2%;
+
 }
 #adidasshoe1{
-    width: 100px;
+    width: 95px;
     margin-right: 85%;
     position: absolute;
     top: 33px;
-    left: 30px;
-    transform: rotate(-40deg);
+    left: 10px;
+    transform: rotate(-45deg);
+}
+#adidbold{
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-right: 35%;
+}
+.adidas p{
+    margin-right: 10%;
+    margin-bottom: 2%;
+
 }
 #feat{
+    font-size: 2.5em;
     text-align: center;
      position: relative;
     top: 90px; 
@@ -142,20 +180,22 @@ text-align: right;
     width: 100px;
 position: absolute;
 margin-top: 2%;
-margin-left: 2%;
+margin-left: 4%;
 transform: rotate(-35deg);
 transform: scaleX(-1);
 
 
 }
-.smalldiv1{
+#smalldiv1{
     border-style: hidden;
-    width: 190px;
-    height: 200px;
+    width: 210px;
+    height: 230px;
     margin-left: 7%;
     background-color: white;
 }
-
+.rad{
+    color: red;
+}
 #phrase1 {
     position: absolute;
     margin-top: 7%;
@@ -163,12 +203,13 @@ transform: scaleX(-1);
  
 }
 #word1{
-    word-spacing: 59px;
+    word-spacing: 50px;
+    
 }
 .smalldiv2{
     border-style: hidden;
-    width: 190px;
-    height: 200px;
+    width: 210px;
+    height: 230px;
     margin-left: 7%;
 background-color: white;
 }
@@ -179,7 +220,7 @@ background-color: white;
  
 }
 #word2{
-    word-spacing: 59px;
+    word-spacing: 78px;
 }
 #nike3{
     width: 100px;
@@ -198,8 +239,8 @@ background-color: white;
 }
 .smalldiv3{
     border-style: hidden;
-    width: 190px;
-    height: 200px;
+    width: 210px;
+    height: 230px;
     margin-left: 7%;
     background-color: white;
 }
@@ -211,7 +252,7 @@ background-color: white;
 }
 
 #word3{
-    word-spacing: 59px;
+    word-spacing: 78px;
 }
 #puma2{
     width: 100px;
@@ -223,8 +264,8 @@ background-color: white;
 }
 .smalldiv4{
     border-style: hidden;
-    width: 190px;
-    height: 200px;
+    width: 210px;
+    height: 230px;
     margin-left: 7%;
 background-color: white;
 }
@@ -237,7 +278,7 @@ background-color: white;
 }
 
 #word4{
-    word-spacing: 59px;
+    word-spacing: 78px;
 }
 #fila1{
     width: 90px;
@@ -249,8 +290,8 @@ background-color: white;
 }
 .smalldiv5{
     border-style: hidden;
-    width: 190px;
-    height: 200px;
+    width: 210px;
+    height: 230px;
     margin-left: 7%;
     background-color: white;
 }
@@ -260,20 +301,20 @@ background-color: white;
     margin-left: 7px;
 }
 #word5{
-    word-spacing: 59px;
+    word-spacing: 78px;
 }
 #puma3{
-    width: 100px;
+    width: 110px;
     position: absolute;
     margin-top: 1%;
-    margin-left: 2%;
+    margin-left: 4%;
    
 }
 .smalldiv6{
     border-style: hidden;
-    width: 190px;
-    height: 200px;
-    margin-left: 7%;
+    width: 210px;
+    height: 230px;
+    margin-left: 8%;
    background-color: white;
 }
 #phrase6{
@@ -282,20 +323,20 @@ background-color: white;
     margin-left: 7px;
 }
 #word6{
-    word-spacing: 59px;
+    word-spacing: 78px;
 }
 #nike4{
     width: 90px;
     position: absolute;
-    margin-left: 2%;
+    margin-left: 4%;
 
 }
 .smalldiv7{
     border-style: hidden;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 230px;
     margin-left: 7%;
-    background-color: floralwhite;
+    background-color: white;
 }
 #phrase7{
     position: absolute;
@@ -304,18 +345,18 @@ background-color: white;
 }
 
 #word7{
-    word-spacing: 59px;
+    word-spacing: 78px;
 }
 #adidas5{
-    width: 100px;
+    width: 110px;
     position: absolute;
     margin-top: 1%;
-    margin-left: 2%;
+    margin-left: 4%;
 }
 .smalldiv8{
     border-style: hidden;
-    width: 190px;
-    height: 200px;
+    width: 210px;
+    height: 230px;
     margin-left: 7%;  
     background-color: white; 
 }
@@ -327,13 +368,14 @@ background-color: white;
 }
 
 #word8{
-word-spacing: 59px;
+word-spacing: 78px;
+
 }
 #adidas8{
     width: 100px;
     position: absolute;
     margin-top: 1%;
-    margin-left: 2%;
+    margin-left: 4%;
     transform: rotate(-20deg);
     transform: scaleX(-1);
 }
@@ -367,10 +409,14 @@ word-spacing: 59px;
 
   
 }
-#phrase9{
-    margin: 50%;
-}
+.phrase9{
+    position: relative;
+    left: 28px;
+}.phrase10{
 
+    position: relative;
+    left: 28px;
+}
 .smalldiv10{
     border-style: hidden;
     width: 420px;
@@ -389,14 +435,20 @@ word-spacing: 59px;
     
 }
 .smalldiv11{
-    border-style: hidden;
-    border-radius: 14px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 36px;
     width: 400px;
     position: relative;
     right: -700px;
-    bottom: 50px;
-    background-color: rgb(248, 245, 240);
+    top: -200px;
+    background-color: rgb(238, 234, 234);
     
+}
+
+.smalldiv11 p{
+    margin-left: 5%;
 }
 .smalldiv12{
     border-style: hidden;
@@ -410,11 +462,13 @@ word-spacing: 59px;
 }
 #h33{
     text-align: center;
-    margin-bottom: 5%;
+    position: relative;
+    top: 20px;
 }
 #email{
     position: relative;
     right: -280px;
+    top: 40px;
     border-radius: 5px;
     height: 30px;
     background-color: beige;
@@ -422,15 +476,17 @@ word-spacing: 59px;
 #button3{
    position: relative;
    right: -300px;
+   top: 40px;
    border-radius: 6px ;
    height: 30px;
-   background-color: rgb(228, 18, 60);
+   background-image: linear-gradient(to right,rgb(247, 28, 28),rgb(248, 169, 21));
    color: white;
 }
 .bigdiv3{
     display: flex;
     justify-content: space-between;
-    margin-top: 900px;
+    
+
 }
 .shoe1{
     display: inline-flex;
@@ -446,40 +502,42 @@ word-spacing: 59px;
 .footer{
     display: flex;
     border-style: hidden;
-    gap: 20px;
     height: 200px;
     background-color: rgb(247, 114, 114);
+    overflow: hidden;
 }
 .discover{
-    position: relative;
-    left: 400px;
+    position: relative; 
+    right: 100px;
     color: white;
+    margin-left: 21%;
 }
 .more{
-position: relative;
-left: 350px;
 color: white;
+margin-left: 10%;
 }
 .contact{
-    position: relative;
-    left: 300px;
     color: whitesmoke;
-    
+    margin-left: 10%;
 }
 .company{
-    position: relative;
-    left: 250px;
     color: white;
+    margin-left: 8%;
 }
 .fur{
-    position: relative;
-    left: 100px ;
+    /* position: relative; */
+    /* left: 100px ; */
     color: white;
+    margin-left: 3%;
 }
 #all{
-    position: relative;
-    top: 140px;
-    right: 20%;
+
+        margin-top: 70%;
+        margin-left: -250%;
+    
+    /* position: relative;
+    /* top: 140px; */
+    right: 20%; 
 }
 #test{
 color: rgb(248, 18, 18);
@@ -487,6 +545,7 @@ color: rgb(248, 18, 18);
 }
 #test2{
     margin-left: 11%;
+    margin-top: 5%;
 }
 .new{
     position: relative;
@@ -496,6 +555,7 @@ color: rgb(248, 18, 18);
     height: 50px;
 width: 130px;
 font-weight: bold;
+font-size: 1.2em;
 color: rgb(230, 9, 9);
 border-color: rgb(216, 74, 74);
 border-radius: 10px;
@@ -506,10 +566,7 @@ top: 200px;
 #arrival{
     margin-left: 550px;
 }
-#home{
-    color: red;
 
-}
 #special1{
     color: red;
     font-weight: bolder;
@@ -526,12 +583,12 @@ top: 200px;
 }
 #button7{
     color: white;
-    background-color: rgb(241, 9, 9);
+    background-image: linear-gradient(to right,rgb(248, 41, 41),rgb(248, 174, 36));
     border-radius: 6px;
 }
 #button44{
     color: white;
-    background-color: red;
+    background-image: linear-gradient(to right,rgb(248, 39, 39),rgb(252, 177, 39));
     border-radius: 5px;
 }
 #button22{
@@ -544,16 +601,29 @@ top: 200px;
     background-color:rgb(241, 65, 65);
     color: white;
     border-radius: 5px;
+    margin-right: 28% ;
+    margin-top: 17px;
+    width: 80px;
+    height: 28px;
 }
 #button55{
 color: white;
 background-color: rgb(241, 65, 65);
 border-radius: 5px;
+margin-right: 27% ;
+    margin-top: 17px;
+    width: 80px;
+    height: 28px;
+
 }
 #button77{
     color: white;
-    background-color: red;
+    background-color: rgb(241,65,65);
     border-radius: 5px;
+    margin-right: 28% ;
+    margin-top: 17px;
+    width: 80px;
+    height: 28px;
 }
 .class1 ul li{
     list-style-type: none;
@@ -569,9 +639,15 @@ border-radius: 5px;
     position: relative;
     top: 70px;
     right: 406px;
+    
 }
 #min{
     color: red;
+
+}
+
+#color{
+color: orangered;
 
 }
 .brown{
@@ -581,7 +657,7 @@ border-radius: 5px;
     width: 450px;
     height: 500px;
     margin-left: 4%;
-    background-color: white;
+    background-color: rgb(224, 217, 217);
 }
 #sneaker2{
     width: 500px;
@@ -591,9 +667,11 @@ border-radius: 5px;
 .minimum{
 border-style: hidden;
 width: 450px;
-position: absolute;
+margin-left: 43%;
+margin-top:-54% ;
+/* position: absolute;
 left: 550px;
-bottom: -186em;
+bottom: -197em; */
 }
 .bigdiv111{
     padding: 10px;
@@ -601,9 +679,10 @@ bottom: -186em;
     justify-content: center;
     position: relative;
     top: 80px;
-    right: 120px;
+    right: 60px;
     
 }
+
 #sim{
     position: relative;
     top: 30px;
@@ -611,9 +690,11 @@ bottom: -186em;
     font-size: 1.5em;
 }
 .footer1{
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
     border-style: hidden;
-    gap: 20px;
+    /* gap: 20px; */
     height: 200px;
     background-color: rgb(247, 114, 114);
     position: relative;
@@ -685,55 +766,203 @@ bottom: -186em;
     background-color: rgb(230, 226, 226);
     margin-top: 60px;
 }
-
-
-
-
-
-
-
-@media only screen and (min-width:300px){
-
-.body{
-     max-width: 100%;
-    max-height: 100%;
+#icon1{
+    padding: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 100%;
+    margin-left: 24px;
+}
+#heart1{
+    margin-left: 6%;
+    margin-top: 5%;
+}
+#shoebold{
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+#pricebold{
+    font-weight: bold;
+}
+#lock{
+    margin-left: 56%;
+}
+#star{
+    margin-right: -16%;
+    height: 1px;
+    width: 1px;
+    color: yellow
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(218, 187, 187);
+    border-radius: 50%;
+    display: inline-block;
+  }
+.dots{
+    margin-left: 11%;
+}
+.socialmedia{
+    word-spacing: 40px;
     
 }
+#google{
+    width: 80px;
+    height: 32px;
+    border-radius: 10%;
+}
+#apple{
+    width: 80px;
+    height: 23px;
+    margin-bottom: 3%;
+    border-radius: 10%;
+}
+#idris{
+    width: 55px;
+    height: 60px;
+    border-radius: 70%;
+    position: relative;
+    left: 640px;
+    bottom: 140px;
+}
+.smalldiv211{
+    border-style: hidden;
+    width: 210px;
+    height: 230px;
+    margin-left: 7%;
+    background-color: white;
+}
+.body3{
+    background-color: rgb(224, 206, 206);
+}
 
- .main{
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
+
+
+
+
+
+@media (max-width: 700px) {
+
+.main2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#sneaker2{
+    width: 230px;
+    height: 200px;
+
+}
+.shoes3{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: -9%;
+}
+.minimum{
+    font-size: 0.7em;
+    margin-top: -10%;
+    margin-left: 2%;
+}
+
+#sim{
+    font-size: 0.7em;
+    margin-right: 30%;
+}
+.bigdiv111{
+display: grid;
+}
+.smalldiv211{
+    border-style: solid;
+    border-color: grey;
+}
+.smalldiv2{
+    border-color: grey;
+    border-style: solid;
+}
+.smalldiv3{
+    border-style: solid;
+    border-color: grey;
+}
+.smalldiv4{
+    border-style: solid;
+    border-color: grey;
+}
+.footer1 p{
+    color: black;
+    font-size: 0.8em;
+
+}
+.footer1{
+    display: block;
+    grid-template-columns: repeat(1,1fr);
+
+}
+#image2{
+    margin-left: 5%;
+}
+#image3{
+    margin-left: -6%;
+}
+#image4{
+    margin-left: -12%;
+}
+
+.class2 {
+    margin-left: -2%;
 }
 .fix{
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
+    font-size: 1em;
 }
-.shoe1{
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden; 
-} 
- .collection22{
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
+.fix h5{
+    font-size: 0.6em;
 }
-.list1{
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
+#best{
+    font-size: 0.9em;
+}
+.bigdiv3{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+#feat{
+    font-size: 1em;
 }
 .bigdiv1{
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 }
- 
+#smalldiv1{
+    border-style: solid;
+    border-color: grey;
+}
+.bigdiv2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.smalldiv10{
+    width: 100px;
+    margin-left: -180%;
+    margin-top: 150%;
+   
+}
+.smalldiv9{
+    width: 100px;
+    margin-left: 1%;
+}
+#phrase9{
+    font-size: 0.2em;
+}
+#phrase10{
+    font-size: 0.2em;
+}
+.smalldiv12{
+    width: 250px;
+    margin-left: -29%;
+}
+#email{
+    margin-left: -120%;
+}
 
 
-
-
-
-}  
+} 
